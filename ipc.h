@@ -1,8 +1,8 @@
 ////////////////////////////////////////////////////////////////////////////////
 //                                                                            //
-//  Copyright (c) 2016-2017 Leonardo Consoni <consoni_2519@hotmail.com>       //
+//  Copyright (c) 2016-2019 Leonardo Consoni <consoni_2519@hotmail.com>       //
 //                                                                            //
-//  This file is part of RobRehabSystem.                                      //
+//  This file is part of IPC Interface.                                       //
 //                                                                            //
 //  RobRehabSystem is free software: you can redistribute it and/or modify    //
 //  it under the terms of the GNU Lesser General Public License as published  //
@@ -21,10 +21,9 @@
 
 
 /// @file ipc.h
-/// @brief Asynchronous IP network connection abstraction.
+/// @brief Inter-process communication interface.
 ///
-/// Library that combines threading utilities with the socket connection library 
-/// to provide asyncronous and thread-safe network communication methods.           
+/// Common Inter-process communication (IPC) functions to be used for different implementations        
 
 #ifndef IPC_H
 #define IPC_H
@@ -43,8 +42,6 @@ typedef char Byte;
 #else
 typedef uint8_t Byte;
 #endif
-
-typedef Byte Message[ IPC_MAX_MESSAGE_LENGTH ];
 
 typedef void* IPCConnection;              ///< Opaque type to reference encapsulated IP connection structure
 

@@ -71,7 +71,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>Asynchronous IP network connection abstraction.  
+<p>Inter-process communication interface.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;stddef.h&gt;</code><br />
 <code>#include &lt;stdint.h&gt;</code><br />
@@ -95,9 +95,6 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a7ae8f3766c8853286755f4ec0903c6f0"><td class="memItemLeft" align="right" valign="top"><a id="a7ae8f3766c8853286755f4ec0903c6f0"></a>
 typedef uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>Byte</b></td></tr>
 <tr class="separator:a7ae8f3766c8853286755f4ec0903c6f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15df679337077d5b3d4b9c4354157d62"><td class="memItemLeft" align="right" valign="top"><a id="a15df679337077d5b3d4b9c4354157d62"></a>
-typedef Byte&#160;</td><td class="memItemRight" valign="bottom"><b>Message</b>[<a class="el" href="ipc_8h.html#a7b98a5a32e06e56a7771c72aff5ab5ab">IPC_MAX_MESSAGE_LENGTH</a>]</td></tr>
-<tr class="separator:a15df679337077d5b3d4b9c4354157d62"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c2fafc3df37c1d1e9fdf4e188e004db"><td class="memItemLeft" align="right" valign="top"><a id="a8c2fafc3df37c1d1e9fdf4e188e004db"></a>
 typedef void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ipc_8h.html#a8c2fafc3df37c1d1e9fdf4e188e004db">IPCConnection</a></td></tr>
 <tr class="memdesc:a8c2fafc3df37c1d1e9fdf4e188e004db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Opaque type to reference encapsulated IP connection structure. <br /></td></tr>
@@ -134,8 +131,8 @@ Functions</h2></td></tr>
 <tr class="separator:a42c649d2541b75ad48d60b8646989310"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Asynchronous IP network connection abstraction. </p>
-<p>Library that combines threading utilities with the socket connection library to provide asyncronous and thread-safe network communication methods. </p>
+<div class="textblock"><p>Inter-process communication interface. </p>
+<p>Common Inter-process communication (IPC) functions to be used for different implementations </p>
 </div><h2 class="groupheader">Enumeration Type Documentation</h2>
 <a id="aab2c67a4ed6fa7b5f9ca74549d5eec98"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aab2c67a4ed6fa7b5f9ca74549d5eec98">&#9670;&nbsp;</a></span>IPCMode</h2>
