@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ipc_2dinterface',['IPC-Interface',['../index.html',1,'']]]
+  ['ipc_20interface',['IPC Interface',['../index.html',1,'']]]
 ];

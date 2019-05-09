@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['ipc_2dinterface',['IPC-Interface',['../index.html',1,'']]],
+  ['ipc_20interface',['IPC Interface',['../index.html',1,'']]],
   ['ipc_2eh',['ipc.h',['../ipc_8h.html',1,'']]],
   ['ipc_5fclient',['IPC_CLIENT',['../ipc_8h.html#aab2c67a4ed6fa7b5f9ca74549d5eec98ab5623d2b4e0c52bf6fc600c2571d0457',1,'ipc.h']]],
   ['ipc_5fcloseconnection',['IPC_CloseConnection',['../ipc_8h.html#a0ab0389893c5f4b35357b5af78232f22',1,'ipc.h']]],
